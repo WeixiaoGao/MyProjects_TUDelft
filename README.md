@@ -34,10 +34,10 @@ We then utilize a dense point cloud to extrude the partition results and create 
 ### 5. [Fill Building Holes](https://github.com/tudelft3d/Automatic-Repair-of-LoD2-Building-Models)
 ![fillholes](/pics/proj_fillholes.png)
 This repository provides the implementation for the automatic repair of LoD2 building models. It is primarily developed using C++ and leverages open-source libraries such as [CGAL](https://www.cgal.org/) and [Easy3D](https://github.com/LiangliangNan/Easy3D).
-Our paper, [Filling holes in LoD2 building models](https://arxiv.org/abs/2404.15892), has been accepted for presentation at the 3D Geoinfo 2024 conference. 
+Our paper, [Filling holes in LoD2 building models](https://isprs-annals.copernicus.org/articles/X-4-W5-2024/171/2024/), has been accepted for presentation at the 3D Geoinfo 2024 conference. 
 We are currently releasing the core module of our code, which focuses on mesh hole filling, along with the corresponding executable. 
 
 ### 6. [Building-PCC](https://github.com/tudelft3d/Building-PCC-Building-Point-Cloud-Completion-Benchmarks)
 ![buildingpcc](/pics/proj_buildingpcc.png)
-This is the implementation of the Builiding-PCC paper: [*Building-PCC: Building Point Cloud Completion Benchmarks*](https://arxiv.org/abs/2404.15644).
+This is the implementation of the Builiding-PCC paper: [*Building-PCC: Building Point Cloud Completion Benchmarks*](https://isprs-annals.copernicus.org/articles/X-4-W5-2024/179/2024/).
 This repository contains scripts for generating Building-PCC data, links for data downloads, test codes for state-of-the-art methods, pre-trained models, and evaluation results.
